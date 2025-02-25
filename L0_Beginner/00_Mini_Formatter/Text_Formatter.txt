@@ -1,0 +1,17 @@
+Objective: Create a command-line tool that formats text files according to user-defined settings.
+
+Features:
+ *	Text Alignment: Support left, right, and center alignment.
+ *	Word Wrapping: Ensure no word is split between lines.
+ *	Indentation: Allow paragraph indentation with a specified number of spaces.
+ *	Uppercase/Lowercase Conversion: Provide an option to convert all text to uppercase or lowercase.
+ *	Input/Output: Read from an input file and write the formatted text to an output file.
+
+Example:
+(sh)
+./mini_formatter input.txt output.txt --align center --wrap 80 --indent 4 --uppercase
+
+Additional Requirements:
+ *	Use only write, read, open, close, malloc, free.
+ *	No printf, sprintf, strtok, or <string.h> functions.
+ *	Implement a simple argument parser to handle command-line options.
